@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('progress-bars-angular2 app is running!');
+    expect(page.getTitleText()).toEqual('Progress Bars in Angular');
   });
 
   afterEach(async () => {

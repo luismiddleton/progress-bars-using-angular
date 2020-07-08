@@ -1,0 +1,27 @@
+@import '../styles';
+
+.meter {
+  @include block();
+  height: spacing(4);
+  width: ($width * 1.5);
+  border: 1px solid lightgray;
+  position: relative;
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+  margin-bottom: spacing(2);
+
+  @media (min-width: $desktop) {
+    width: $width;
+  }
+
+  div {
+    @include block();
+    text-align: center;
+    line-height: spacing(4);
+    font-weight: bold;
+    color: $white;
+    max-width: 100%;
+    min-width: spacing(3);
+    position: relative;
+    overflow: hidden;
+  }
+}

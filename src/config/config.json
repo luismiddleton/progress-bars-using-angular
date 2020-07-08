@@ -1,0 +1,4 @@
+{
+    "title": "Progress Bars in Angular",
+    "endpoint": "http://pb-api.herokuapp.com/bars"
+}
